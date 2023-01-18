@@ -8,4 +8,5 @@ function trocaCor () {
         corAleatória += valor;
     }
     document.querySelector("body").style.background = corAleatória;
+    document.querySelector("p").textContent = corAleatória;
 }
