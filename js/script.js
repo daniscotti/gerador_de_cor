@@ -8,5 +8,11 @@ function trocaCor () {
         corAleatória += valor;
     }
     document.querySelector("body").style.background = corAleatória;
-    document.querySelector("p").textContent = corAleatória;
+    document.querySelector("input").value = corAleatória;
 }
+
+function copia() {
+    let textoCopiado = document.querySelector("input");
+    textoCopiado.select();
+    document.execCommand("copy");
+  }
