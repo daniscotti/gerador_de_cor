@@ -6,4 +6,3 @@ Passos implementados e pendentes:
   - [x] Mostar na tela o valor em hexadecimal da cor gerada.
   - [x] Botão de copiar o valor da cor gerada.
   - [ ] Mostrar um span com o texto 'Copiado!' ao clicar no botão de copiar.
-  - [ ] Criar rodapé com as informações do criador do projeto.
